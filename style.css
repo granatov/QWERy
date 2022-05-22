@@ -1,0 +1,42 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0px;
+}
+ul {
+  list-style: none;
+}
+
+body {
+  min-width: 320px;
+  background-color: #000000;
+  font-family: "Open Sans", sans-serif;
+  color: #fff;
+  /* background-image: url(mobile/QWERy.jpg);
+  background-repeat: no-repeat;
+  opacity: 0.5;
+  background-position: top; */
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.container {
+  max-width: 1481px;
+  padding: 0 10px;
+
+  margin: 0 auto;
+}
