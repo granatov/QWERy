@@ -1,1 +1,1 @@
-# QWERy
+https://granatov.github.io/QWERy/
