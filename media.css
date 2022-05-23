@@ -1,0 +1,398 @@
+@media screen and (max-width: 1500px) {
+  .holiday {
+    max-width: 100%;
+    justify-content: center;
+    gap: 80px;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  .header_social {
+    transform: rotate(0deg);
+    left: 26px;
+    top: 264px;
+  }
+  .header_social_item {
+    transform: rotate(0deg);
+  }
+  .header_title {
+    line-height: 69px;
+    max-width: 693px;
+    font-size: 76px;
+    padding-bottom: 700px;
+  }
+  .header_title span {
+    font-size: 68px;
+  }
+  .header_golden_p {
+    padding-right: 69px;
+    text-align: center;
+    margin-bottom: 4px;
+  }
+  .header_golden_p::before {
+    left: 26px;
+  }
+  .holiday {
+    display: block;
+    text-align: center;
+    margin-bottom: 85px;
+  }
+  .holiday_img {
+    width: 35%;
+    margin-top: 0;
+  }
+  .holiday_content {
+    justify-content: center;
+    margin: 0 auto;
+  }
+  .holiday_title {
+    max-width: 100%;
+    font-size: 40px;
+    line-height: 50px;
+  }
+  .holiday_golden_p {
+    padding-left: 0;
+  }
+  .holiday_text {
+    font-size: 16px;
+    line-height: 27px;
+  }
+
+  .holiday_golden_p::before {
+    display: none;
+  }
+  .holiday_link {
+    margin: 0 auto;
+  }
+  .photo_title {
+    font-size: 33px;
+    line-height: 31px;
+  }
+  .photo_text {
+    max-width: 865px;
+    margin: 0 auto 20px;
+    font-size: 16px;
+    line-height: 25px;
+  }
+  .culture {
+    gap: 20px;
+  }
+  .culture_img {
+    height: 50%;
+    width: 40%;
+  }
+  .culture_content {
+    padding-top: 40px;
+    padding-left: 15px;
+    justify-content: center;
+  }
+  .culture_golden_p {
+    font-size: 16px;
+  }
+  .culture_title {
+    font-size: 40px;
+    line-height: 50px;
+  }
+  .culture_text {
+    font-size: 16px;
+    line-height: 27px;
+  }
+  .culture_link {
+    font-size: 15px;
+  }
+
+  .footer_top {
+    margin-bottom: 15px;
+  }
+  .footer_hr {
+    margin-bottom: 7px;
+  }
+  .footer_center {
+    margin-bottom: 45px;
+    gap: 169px;
+  }
+  .footer_bottom {
+    margin-bottom: 50px;
+  }
+}
+
+@media screen and (max-width: 880px) {
+  .header_golden_p::before {
+    display: none;
+  }
+  .header_golden_p {
+    padding-right: 0px;
+    text-align: inherit;
+    padding-left: 12px;
+  }
+  .header_container {
+    padding: 25px 25px 0;
+  }
+  .header_title {
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 400px;
+  }
+  .header_scroll_btn {
+    top: 60%;
+  }
+  .header_social {
+    display: none;
+  }
+  .header_golden_p {
+    font-size: 12px;
+    padding-left: 80px;
+  }
+  .holiday_title {
+    font-size: 25px;
+    line-height: 34px;
+  }
+  .holiday_text {
+    font-size: 14px;
+    line-height: 26px;
+  }
+  .holiday_link {
+    font-size: 15px;
+  }
+  .holiday_img {
+    width: 50%;
+  }
+  .photo {
+    margin-bottom: 115px;
+  }
+  .culture_content {
+    padding-top: 0px;
+    gap: 5px;
+  }
+  .culture_title {
+    font-size: 25px;
+    line-height: 34px;
+  }
+  .culture_text {
+    font-size: 14px;
+    line-height: 26px;
+  }
+  .culture_golder_p {
+    font-size: 12px;
+    padding-left: 80px;
+  }
+  .footer_center {
+    display: block;
+  }
+  .footer_logo {
+    font-size: 34px;
+  }
+  .footer_top {
+    margin-bottom: 5px;
+  }
+  .footer_top_button {
+    gap: 13px;
+  }
+  .footer_top_question {
+    font-size: 17px;
+  }
+  .footer_top_btn {
+    line-height: 5px;
+    padding: 23px;
+  }
+  .mail_input {
+    flex-direction: row;
+    max-width: 100%;
+    justify-content: space-between;
+    gap: 0;
+  }
+  .main {
+    margin-bottom: 100px;
+  }
+  .footer_input_title {
+    font-size: 20px;
+  }
+  .footer_input {
+    max-width: 330px;
+    height: 53px;
+  }
+  .footer_input_btn {
+    width: 53px;
+    height: 53px;
+  }
+  .footer_menu {
+    max-width: 700px;
+    margin: 0 auto;
+  }
+  .footer_bottom {
+    flex-direction: column;
+    gap: 25px;
+    margin-bottom: 24px;
+  }
+  .footer_copyright {
+    margin-bottom: 34px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .header_content {
+    text-align: center;
+  }
+.header_golden_p {
+  padding: 0;
+}
+  .header_top {
+    position: relative;
+  }
+  .menu_brg {
+    display: block;
+  }
+  .menu_list.active {
+    display: block;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 110%;
+    transform: translateX(-50%);
+  }
+  .menu_list {
+    top: -800%;
+    display: block;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: all 0.3s;
+  }
+  .menu_item {
+    margin-bottom: 40px;
+  }
+  .holiday_title {
+    padding: 0 10px;
+    font-size: 35px;
+    line-height: 40px;
+  }
+  .holiday_img {
+    width: 50%;
+  }
+  .holiday_golden_p{font-size: 12px;}
+  .holiday_title{font-size: 25px;
+    line-height: 34px;}
+  .holiday_text {
+    font-size: 14px;
+    line-height: 26px;
+  }
+  .holiday_content{gap: 7px;}
+  .photo_slider_item {
+    padding-bottom: 20px;
+  }
+  .photo_golden_p {
+    padding-top: 315px;
+    margin: 0 auto 8px;
+  }
+  .photo_golden_p::before {
+    left: 24px;
+    top: 326px;
+  }
+  .photo_golden_p::after {
+    left: 198px;
+    top: 326px;
+  }
+  .photo_title {
+    margin: 0 auto 17px;
+    font-size: 26px;
+  }
+  .photo_text {
+    display: none;
+  }
+  .mail_input {
+    flex-direction: column;
+    max-width: 350px;
+    margin: 0 auto;
+  }
+  .footer_menu {
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 620px) {
+  .culture_golder_p::before {
+    display: none;
+  }
+  .culture_golder_p {
+    padding-left: 0;
+  }
+  .culture {
+    flex-direction: column;
+    align-items: center;
+  }
+  .culture_content {
+    text-align: center;
+    padding-left: 0;
+  }
+  .culture_link {
+    margin: 0 auto;
+  }
+  .culture_img {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .holiday_img{width: 90%;}
+
+  .footer_top_question {
+    display: none;
+  }
+  .footer_menu {
+    padding-top: 23px;
+  }
+  .footer_menu_list {
+    font-size: 15px;
+  }
+  .footer_menu_list li:first-child {
+    font-size: 17px;
+  }
+  .footer_policy {
+    gap: 20px;
+  }
+  .footer_input_title {
+    font-size: 17px;
+  }
+  .footer_bottom {
+    padding: 0;
+  }
+}
+@media screen and (max-width: 400px) {
+  .header_golden_p {
+    padding: 0 43px;
+  }
+
+  .header_title {
+    font-size: 56px;
+  }
+  .header_title span {
+    font-size: 48px;
+  }
+  .holiday_img {
+    width: 100%;
+  }
+  .holiday {margin-bottom: 30px;}
+  .holiday_content {
+    gap: 10px;
+  }
+  .photo {margin-bottom: 50px;}
+  .photo_text {
+    display: none;
+  }
+  .main {margin-bottom: 40px;}
+  .photo_title {
+    font-size: 22px;
+    line-height: 27px;
+  }
+  .photo_link {
+    padding-left: 11px;
+    font-size: 16px;
+    line-height: 13px;
+  }
+  .culture_img {
+    width: 88%;
+  }
+  .footer_input {
+    max-width: 100%;
+  }
+}

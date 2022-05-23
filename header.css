@@ -164,3 +164,32 @@
 .header_scroll_btn:hover {
   color: #ffc178;
 }
+
+.menu_brg {
+  display: none;
+  position: relative;
+  height: 24px;
+  width: 30px;
+}
+.menu_brg span {
+  width: 100%;
+  height: 2px;
+  background-color: #fff;
+  position: absolute;
+  top: 11px;
+}
+
+.menu_brg::before,
+.menu_brg::after {
+  content: "";
+  background-color: #fff;
+  width: 100%;
+  height: 2px;
+  position: absolute;
+}
+.menu_brg::before {
+  top: 0;
+}
+.menu_brg::after {
+  bottom: 0;
+}

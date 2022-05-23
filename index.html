@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="header.css" />
     <link rel="stylesheet" href="main.css" />
     <link rel="stylesheet" href="footer.css" />
+    <link rel="stylesheet" href="jquery.fancybox.css">
     <link rel="stylesheet" href="media.css" />
   </head>
   <body>
@@ -24,6 +25,7 @@
         <div class="header_top">
           <a href="#" class="logo">QWERy</a>
           <nav class="menu">
+            <div class="menu_brg"><span></span></div>
             <ul class="menu_list">
               <li class="menu_item">
                 <a href="#" class="menu_link">Information</a>
@@ -122,7 +124,7 @@
       </div>
     </header>
     <main class="main">
-      <div class="container">
+       <div class="container">
         <div class="holiday">
           <img src="template/image_1.png" alt="" class="holiday_img" />
           <div class="holiday_content">
@@ -151,8 +153,13 @@
             </a>
           </div>
         </div>
-        <div class="photo">
+      <div class="photo">
           <div class="photo_slider_items">
+
+
+
+
+
             <div class="photo_slider_item">
               <p class="photo_golden_p">Bromo</p>
               <h3 class="photo_title">
@@ -180,9 +187,20 @@
                 </svg>
               </a>
             </div>
+
+
+
+
+
+
+
+
+
+
+
           </div>
         </div>
-        <div class="culture">
+         <div class="culture">
           <div class="culture_content">
             <p class="culture_golder_p">INDONESIAN CULTURE</p>
             <h3 class="culture_title">
@@ -206,11 +224,11 @@
                   fill="#FBD784"
                 /></svg></a>
           </div>
-          <img src="template/image_3.png" alt="" />
+          <img src="template/image_3.png" alt="" class="culture_img"/>
         </div>
       </div>
     </main>
-    <footer class="footer">
+     <footer class="footer">
       <div class="container">
         <div class="footer_top">
           <a href="#" class="footer_logo">QWERy</a>
@@ -348,5 +366,9 @@
         <p class="footer_copyright">Copyright 2022 QWERy</p>
       </div>
     </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="main.js"></script>
+    <script src="jquery.fancybox.min.js"></script>
+    <script src="slick.min.js"></script>
   </body>
 </html>
