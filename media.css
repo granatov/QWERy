@@ -4,6 +4,9 @@
     justify-content: center;
     gap: 80px;
   }
+  .photo {
+    padding: 0 20px;
+  }
 }
 
 @media screen and (max-width: 1150px) {
@@ -233,9 +236,9 @@
   .header_content {
     text-align: center;
   }
-.header_golden_p {
-  padding: 0;
-}
+  .header_golden_p {
+    padding: 0;
+  }
   .header_top {
     position: relative;
   }
@@ -270,14 +273,20 @@
   .holiday_img {
     width: 50%;
   }
-  .holiday_golden_p{font-size: 12px;}
-  .holiday_title{font-size: 25px;
-    line-height: 34px;}
+  .holiday_golden_p {
+    font-size: 12px;
+  }
+  .holiday_title {
+    font-size: 25px;
+    line-height: 34px;
+  }
   .holiday_text {
     font-size: 14px;
     line-height: 26px;
   }
-  .holiday_content{gap: 7px;}
+  .holiday_content {
+    gap: 7px;
+  }
   .photo_slider_item {
     padding-bottom: 20px;
   }
@@ -286,11 +295,11 @@
     margin: 0 auto 8px;
   }
   .photo_golden_p::before {
-    left: 24px;
+    left: 0px;
     top: 326px;
   }
   .photo_golden_p::after {
-    left: 198px;
+    left: 174px;
     top: 326px;
   }
   .photo_title {
@@ -333,7 +342,9 @@
 }
 
 @media screen and (max-width: 470px) {
-  .holiday_img{width: 90%;}
+  .holiday_img {
+    width: 90%;
+  }
 
   .footer_top_question {
     display: none;
@@ -371,15 +382,21 @@
   .holiday_img {
     width: 100%;
   }
-  .holiday {margin-bottom: 30px;}
+  .holiday {
+    margin-bottom: 30px;
+  }
   .holiday_content {
     gap: 10px;
   }
-  .photo {margin-bottom: 50px;}
+  .photo {
+    margin-bottom: 50px;
+  }
   .photo_text {
     display: none;
   }
-  .main {margin-bottom: 40px;}
+  .main {
+    margin-bottom: 40px;
+  }
   .photo_title {
     font-size: 22px;
     line-height: 27px;
