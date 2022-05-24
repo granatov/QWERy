@@ -186,10 +186,12 @@
   width: 100%;
   height: 2px;
   position: absolute;
+  transform-origin: 50% 50%;
+  transition: top 0.3s 0.3s, transform 0.3s;
 }
 .menu_brg::before {
-  top: 0;
+  top: 22px;
 }
 .menu_brg::after {
-  bottom: 0;
+  top: 0px;
 }

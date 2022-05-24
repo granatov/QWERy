@@ -245,6 +245,20 @@
   .menu_brg {
     display: block;
   }
+  .menu_brg.active::before {
+    transform: rotate3d(0, 0, 1, -45deg);
+    top: 50%;
+    transition: top 0.3s, transform 0.3s 0.5s;
+  }
+  .menu_brg.active::after {
+    transform: rotate3d(0, 0, 1, 45deg);
+    top: 50%;
+    transition: top 0.3s, transform 0.3s 0.5s;
+  }
+  .menu_brg.active span {
+    transform: scale(0);
+  }
+
   .menu_list.active {
     display: block;
     text-align: center;
